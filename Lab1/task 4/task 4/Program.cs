@@ -10,17 +10,17 @@ namespace task_4
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine()); // Setting size
 
-            for (int i = 1; i <= n; i++)
+            for (int i = 1; i <= n; i++) //Creating 2 d array
             {
-                for (int j = 1; j <= n; j++)
+                for (int j = 1; j <= n; j++) 
                 {
-                    if (j <= i)
-                        Console.Write("[*]");
+                    if (j <= i) //Condition to crate a pyramid
+                        Console.Write("[*]"); // picture
 
                 }
-                Console.WriteLine();
+                Console.WriteLine();// to move to the next Line
             }
             Console.ReadKey();
         }
