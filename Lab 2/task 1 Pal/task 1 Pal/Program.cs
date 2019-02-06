@@ -29,7 +29,7 @@ namespace task_1_Pal
             }
             else Console.WriteLine("No");
 
-            System.IO.File.WriteAllText(@"C:\Users\Swift\Desktop\github\Lab 2\txt.txt", string.Empty);
+          
             Console.ReadKey();
 
             
