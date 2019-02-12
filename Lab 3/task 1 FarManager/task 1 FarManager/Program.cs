@@ -254,7 +254,7 @@ namespace task_1_FarManager
             static void Main(string[] args)
             {
                 FarManager farManager = new FarManager();
-                farManager.Start(@"C:\Users\Swift\Desktop\github — копия");
+                farManager.Start(@"C:\Users\Swift\Desktop\c sharp");
             }
         }
     }
