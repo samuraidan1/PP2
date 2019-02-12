@@ -20,6 +20,7 @@ namespace task_1_Pal
 
             FileStream fs = new FileStream(@"C:\Users\Swift\Desktop\github\Lab 2\txt.txt", FileMode.Open,FileAccess.ReadWrite);
             StreamReader sr = new StreamReader(fs);
+            
             string st1 = sr.ReadLine();
             string st2=Reverse(st1);
             
